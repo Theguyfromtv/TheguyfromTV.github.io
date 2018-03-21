@@ -16,14 +16,38 @@ h1
     padding: 31px 36px;
 }
 
-#pageWrap
+
+section
 {
-    max-width: 960px;
+    max-width: 890px;
+    padding: 35px;
     margin: auto;
     float: center;
     background: white;
     margin: 60px auto 170px;
+}
 
+.bio
+{
+    display: inline;
+    height: 200px;
+    width: auto;
+    float: left;
+
+}
+
+p
+{
+    display: inline;
+    color: #bcbcbc;
+    font-size: 18px;
+    line-height: 200%;
+    width: 890px;
+    overflow: hidden;
+}
+
+.textPad
+{
 
 }
 
