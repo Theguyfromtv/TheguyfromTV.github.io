@@ -2,11 +2,10 @@
 
 header
 {
-    background-color: white;
+    background-color: black;
     height: 90px;
-    border-bottom-color: #d2d2d2;
-    border-bottom: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
 
 }
 
@@ -45,7 +44,7 @@ header
 
 /*this is the navigation bar*/
 
-nav
+.nav
 {
     
    
@@ -80,38 +79,48 @@ a
 .navigation
 {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #aab1c5;
+    font-weight: bold;
+    color:  white;
     text-decoration: none;
     font-size: 16px;
     padding: 37px 18px;
     border-style: none solid none none;
-    border-width: 1px;
-    border-color: #f3f3f3;    
+    border-width: 0px 1px;
+    border-color: white;
+    position: relative;
+    top: -3px;
+
+
+
 }
 
 .navigation:hover
 {
     color: white;
-    background-color: #63a8a4;
+    background-color:  #a72917;
     
 }
 
 .navigationV2
 {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #aab1c5;
+    font-weight: bold;
+    color:  white;
     text-decoration: none;
     font-size: 16px;
     padding: 37px 18px;
     border-style: none none none none;
-    border-width: 1px;
-    border-color: #f3f3f3;     
+    border-width: 0px 1px;
+    border-color: #f3f3f3; 
+    position: relative;
+    top: -3px; 
+   
 }
 
 .navigationV2:hover
 {
     color: white;
-    background-color: #63a8a4;
+    background-color:  #a72917;
 }
 
 /*background lives here*/
@@ -147,6 +156,15 @@ section
     margin: 60px auto 170px;
 }
 
+/*clearfixing the main section*/
+
+.group:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /*about me page content starts here*/
 
 /*about me photo*/
@@ -177,6 +195,13 @@ p
 
 
 /*portfolio gallery- I wanted to make the text appear only on mouse-over, so I'm creating a hidden div for it, under the class example. had to seperate it to 5 diff classes to make sure they work individually*/
+
+/*want the portfolio section to be different*/
+
+.imageBox
+{
+    margin: 0px 125px;
+}
 
 .example1
 {
@@ -375,4 +400,12 @@ h4
 .example5:hover .exampleTitleBox5
 {
     visibility: visible;
+}
+
+/*Making padding for portfolio images*/
+
+.portfolioImage
+{
+    padding: 10px;
+    float: left;
 }
