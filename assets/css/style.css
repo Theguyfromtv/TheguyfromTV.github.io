@@ -1,0 +1,59 @@
+
+
+header
+{
+    background-color: black;
+    height: 91px;
+    border-bottom-color: #d0d0d0;
+    
+
+}
+
+#pageWrap
+{
+    max-width: 960px;
+    margin: auto;
+    float: center;
+
+}
+
+#headerContent
+
+{
+    max-width: 960px;
+    margin: auto;
+}
+
+span
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+    float: left;
+
+}
+
+.navigation
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*the navigation bar needs to be black, have a mouse over element, and needs to be cleaned up*/
+
+nav
+{
+    
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: right
+}
+
+li
+
+{
+    display: inline;
+}
+/* Title fonts should be in a font similar to the marvel font, and be white, and then red when a mouse hovers over them*/ 
