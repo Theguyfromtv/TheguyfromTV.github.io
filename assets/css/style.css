@@ -59,8 +59,15 @@ nav
     
     
 }
+/*making sure the list stays inline (and ONLY tat list)*/
 
-/*these are the navigation elements, link properties, and animations*/
+.nav li
+
+{
+    display: inline;
+}
+
+/*these are the navigation elements, link properties, and animations same as with the ligi it's done via a combination of the text tag and anchor tag in order to make whole area clickable*/
 
 a
 {
@@ -95,9 +102,9 @@ a
     text-decoration: none;
     font-size: 16px;
     padding: 37px 18px;
-    border-style: none none none none;
+    border-style: none solid none none;
     border-width: 1px;
-    border-color: #f3f3f3;    
+    border-color: #f3f3f3;     
 }
 
 .navigationV2:hover
@@ -170,22 +177,42 @@ p
 }
 
 
+/*portfolio gallery- I wanted to make the text appear only on mouse-over, so I'm creating a hidden dive for it, under the class example*/
 
-.active
+.example
 {
-    background-color: #63a8a4;
-    color: white;
+    display: inline-block
+    height: 300px;
+    width: 427.5px;
 }
 
-li
-
+.example img
 {
-    display: inline;
+    display: inline-block
+    float: left;
+    height: 300px;
+    width: 427.5px;
+    object-fit: cover;
 }
 
-body
+/*this is the text, it's supposed to only appear on hover*/
+
+.exampleTitle
 {
-    background-image: url('../images/dust_scratches.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
 
 }
-/* Title fonts should be in a font similar to the marvel font, and be white, and then red when a mouse hovers over them*/ 
+
+.example: hover .exampleTitle
+{
+    visibility: visible;
+    opacity: 1;
+}
