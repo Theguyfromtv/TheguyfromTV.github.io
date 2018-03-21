@@ -26,11 +26,12 @@ header
 {
     display:inline-block;
     color: white;
-    background-color: #63a8a4;
+    background-color: #a72917;
     float: left;
     font-weight: bold;
     font-size: 28px;
     padding: 31px 36px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /*this is the main logo hover interaction*/
@@ -38,7 +39,7 @@ header
 
 .span:hover
 {
-    color: #63a8a4;
+    color: #a72917;
     background-color: white;
 }
 
@@ -102,7 +103,7 @@ a
     text-decoration: none;
     font-size: 16px;
     padding: 37px 18px;
-    border-style: none solid none none;
+    border-style: none none none none;
     border-width: 1px;
     border-color: #f3f3f3;     
 }
@@ -142,8 +143,6 @@ section
 {
     max-width: 890px;
     padding: 35px;
-    margin: auto;
-    float: center;
     background: white;
     margin: 60px auto 170px;
 }
@@ -177,42 +176,203 @@ p
 }
 
 
-/*portfolio gallery- I wanted to make the text appear only on mouse-over, so I'm creating a hidden dive for it, under the class example*/
+/*portfolio gallery- I wanted to make the text appear only on mouse-over, so I'm creating a hidden div for it, under the class example. had to seperate it to 5 diff classes to make sure they work individually*/
 
-.example
+.example1
 {
-    display: inline-block
-    height: 300px;
-    width: 427.5px;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+
 }
 
-.example img
+.example1 img
 {
-    display: inline-block
+    display: inline-block;
     float: left;
-    height: 300px;
-    width: 427.5px;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.example2
+{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+
+}
+
+.example2 img
+{
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.example3
+{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+
+}
+
+.example3 img
+{
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.example4
+{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+
+}
+
+.example4 img
+{
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.example5
+{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+
+}
+
+.example5 img
+{
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 300px;
     object-fit: cover;
 }
 
-/*this is the text, it's supposed to only appear on hover*/
+/*this is the text, it's supposed to only appear on hover, had to seperate the classes to make sure only that specific image's text appears*/
 
-.exampleTitle
+h4
 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    visibility: hidden;
-
+    padding: 20px;
+    font-size: 30px;
+    color: white;
 }
 
-.example: hover .exampleTitle
+.exampleTitleBox1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example1:hover .exampleTitleBox1
 {
     visibility: visible;
-    opacity: 1;
+}
+
+.exampleTitleBox2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example2:hover .exampleTitleBox2
+{
+    visibility: visible;
+}
+
+.exampleTitleBox3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example3:hover .exampleTitleBox3
+{
+    visibility: visible;
+}
+
+.exampleTitleBox4
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example4:hover .exampleTitleBox4
+{
+    visibility: visible;
+}
+.exampleTitleBox5
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example5:hover .exampleTitleBox5
+{
+    visibility: visible;
 }
