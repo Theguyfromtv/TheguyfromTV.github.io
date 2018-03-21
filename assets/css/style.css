@@ -1,4 +1,4 @@
-
+/*now this is a story all about how all the header content lives here*/
 
 header
 {
@@ -10,46 +10,7 @@ header
 
 }
 
-h1
-{
-    font-size: 28px;
-    padding: 31px 36px;
-}
-
-
-section
-{
-    max-width: 890px;
-    padding: 35px;
-    margin: auto;
-    float: center;
-    background: white;
-    margin: 60px auto 170px;
-}
-
-.bio
-{
-    display: inline;
-    height: 200px;
-    width: auto;
-    float: left;
-
-}
-
-p
-{
-    display: inline;
-    color: #bcbcbc;
-    font-size: 18px;
-    line-height: 200%;
-    width: 890px;
-    overflow: hidden;
-}
-
-.textPad
-{
-
-}
+/*this is to make sure the content in the header alignes to the rest of the site*/
 
 #headerContent
 
@@ -58,29 +19,26 @@ p
     margin: auto;
 }
 
+/*this is the main logo*/
+
 span
 {
     color: white;
     background-color: #63a8a4;
     float: left;
-    font-weight: 50;
-
+    font-weight: bold;
+    font-size: 28px;
+    padding: 31px 36px;
 }
+/*this is the main logo hover interaction*/
 
-.navigation
+span:hover
 {
-    font-family: Arial, Helvetica, sans-serif;
-    color:  #aab1c5;;
-    text-decoration: none;
-    font-size: 16px;
-    border-right-color: #f3f3f3;
-    border-right-width: 20px;
-    padding: 18px
-
-    
+    color: #63a8a4;
+    background-color: white;
 }
 
-/*the navigation bar needs to be black, have a mouse over element, and needs to be cleaned up*/
+/*this is the navigation bar*/
 
 nav
 {
@@ -93,9 +51,121 @@ nav
     float: right;
     padding: 40px;
     color: #aab1c5;
+   
     
     
 }
+
+/*these are the navigation elements, link properties, and animations*/
+
+
+.navigation
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #aab1c5;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 18px 18px;
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: #f3f3f3;    
+}
+
+.navigation:hover
+{
+    color: white;
+    background-color: #63a8a4;
+    
+}
+
+.navigationV2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #aab1c5;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 18px 18px;
+    border-style: none none none none;
+    border-width: 1px;
+    border-color: #f3f3f3;    
+}
+
+.navigationV2:hover
+{
+    color: white;
+    background-color: #63a8a4;
+    
+}
+a
+{
+    text-decoration: none;
+    color: #aab1c5;
+}
+
+/*background lives here*/
+
+body
+{
+    background-image: url('../images/dust_scratches.png');
+
+}
+
+/*sub heading lives here*/
+
+h2
+{
+    font-size: 28px;
+    color: #63a8a4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-style: none none solid none;
+    padding: 20px 0px 30px;
+    margin: 0px 0px 30px 0px;
+    border-bottom-color: #e1e1e1;
+    border-bottom-width: 3px;
+}
+
+/*main page content lives here*/
+
+section
+{
+    max-width: 890px;
+    padding: 35px;
+    margin: auto;
+    float: center;
+    background: white;
+    margin: 60px auto 170px;
+}
+
+/*about me page content starts here*/
+
+/*about me photo*/
+
+.bio
+{
+    display: inline;
+    height: 200px;
+    width: auto;
+    float: left;
+    padding: 7px 30px 30px 0px;
+
+}
+
+/*about me text*/
+
+p
+{
+    display: inline;
+    color: #bcbcbc;
+    font-size: 18px;
+    line-height: 200%;
+    width: 890px;
+    overflow: hidden;
+    align-content: flex-start; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
 
 .active
 {
