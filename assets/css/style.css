@@ -8,6 +8,9 @@ header
     height: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: #7f7f7f;
 
 }
 
@@ -89,7 +92,7 @@ a
     padding: 37px 18px;
     border-style: none solid none none;
     border-width: 0px 1px;
-    border-color: white;
+    border-color: #7f7f7f;
     position: relative;
     top: -3px;
 
@@ -130,7 +133,7 @@ a
 
 body
 {
-    background-image: url('../images/dust_scratches.png');
+    background-image: url('../images/marvelBackground.png');
 
 }
 
