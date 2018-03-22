@@ -152,7 +152,7 @@ h2
 
 section
 {
-    max-width: 890px;
+    max-width: 960px;
     padding: 35px;
     background: white;
     margin: 60px auto 170px;
@@ -204,14 +204,14 @@ p
 
 .imageBox
 {
-    margin: 0px 125px;
+    margin: 0px 0px;
 }
 
 .example1
 {
     display: inline-block;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     position: relative;
 
 }
@@ -220,15 +220,15 @@ p
 {
     display: inline-block;
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     object-fit: cover;
 }
 .example2
 {
     display: inline-block;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     position: relative;
 
 }
@@ -237,15 +237,15 @@ p
 {
     display: inline-block;
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     object-fit: cover;
 }
 .example3
 {
     display: inline-block;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     position: relative;
 
 }
@@ -254,15 +254,15 @@ p
 {
     display: inline-block;
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     object-fit: cover;
 }
 .example4
 {
     display: inline-block;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     position: relative;
 
 }
@@ -271,15 +271,15 @@ p
 {
     display: inline-block;
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     object-fit: cover;
 }
 .example5
 {
     display: inline-block;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     position: relative;
 
 }
@@ -288,8 +288,8 @@ p
 {
     display: inline-block;
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 217px;
+    width: 325px;
     object-fit: cover;
 }
 
@@ -520,6 +520,10 @@ footer
 {
     background: #7f7f7f;
     padding: 50px;
+    text-align: center;
+    border-style: solid none none none;
+    border-width: 10px;
+    border-color: #a72917;
 }
 
 .footer
@@ -527,4 +531,6 @@ footer
     font-size: 10px;
     margin: auto;
     padding: auto;
+    text-align: center;
+    width: 850px;
 }
