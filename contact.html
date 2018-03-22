@@ -33,38 +33,52 @@
 
 <!--contact form -->
 
-    <section class="group" class="form">
+    <section class="form">
         <h2>Contact</h2>
-        <form action="/sendtothevoid.php">
-            Name <br>
-            <input type="text" class="line" name="name" value="John Smith"><br>
-            Email <br>
-            <input type="text" class="line" name="email" value="example@gmail.com"><br>
-            Message <br>
-            <textarea name="message" class="paragraph" cols="30" rows="10"> </textarea><br>
-            <input type="submit" value="submit"> 
-            </form>
-    </section>
-<!--Social box-->
+        <form>
+            <form action="action_page.php">
+                <div class="row">
+                    <label for="name"> Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Peter Parker">
+                </div>
+            <div class="row"></div>
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="lastname" placeholder="example@shield.com">
+            </div>
+            <div class="row">
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" placeholder="Message" style="height:200px"></textarea>
+            </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+        </div>
+        </form>
+        <section class="social">
 
-    <section class="group" class="social">
-        <h3>Connect with Me</h3>
-        <a href="https://github.com/Theguyfromtv"> 
-            <img src="/Users/shaharblonde/Documents/UCF/Homework 1/basicPortfoilio/assets/images/githubIcon.jpg" alt="GitHub">
-        </a>
-        <a href="https://www.linkedin.com/in/shahargoldfinger/"> 
-            <img src="/Users/shaharblonde/Documents/UCF/Homework 1/basicPortfoilio/assets/images/linkedinIcon.png" alt="LinkeIn">
-        </a>
-        <a href="https://stackoverflow.com/users/9320801/shahar-goldfinger"> 
-            <img src="/Users/shaharblonde/Documents/UCF/Homework 1/basicPortfoilio/assets/images/stackOverflowIcon.png" alt="GitHub">
-        </a>
+            <!--Social box (I put it in the form to make it relative in position to the form-->
+
+                <h3>Connect with Me</h3>
+                <a href="https://github.com/Theguyfromtv"> 
+                    <img class="socialPhoto" src="assets/images/githubIcon.jpg" alt="GitHub">
+                </a>
+                <a class="socialPhoto" href="https://www.linkedin.com/in/shahargoldfinger/"> 
+                    <img class="socialPhoto" src="assets/images/linkedinIcon.png" alt="LinkeIn">
+                </a>
+                <a class="socialPhoto" href="https://stackoverflow.com/users/9320801/shahar-goldfinger"> 
+                    <img class="socialPhoto" src="assets/images/stackOverflowIcon.png" alt="GitHub">
+                </a>
+            </section>
     </section>
+
+
+
 
 
 <!--footer -->
 
     <footer>
-       <p>Copyright ©</p> 
+       <p class="footer">©Copyright Stan Lee</p> 
     </footer>
     
 </body>

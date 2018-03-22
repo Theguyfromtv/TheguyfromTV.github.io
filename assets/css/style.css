@@ -1,3 +1,5 @@
+/*I made the whole thing a little marvel comics themed cause that's what I felt like at the moment*/
+
 /*now this is a story all about how all the header content lives here*/
 
 header
@@ -136,8 +138,8 @@ body
 h2
 {
     font-size: 28px;
-    color: #63a8a4;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a72917;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     border-style: none none solid none;
     padding: 20px 0px 30px;
@@ -154,6 +156,8 @@ section
     padding: 35px;
     background: white;
     margin: 60px auto 170px;
+    font-family: Arial, Helvetica, sans-serif
+
 }
 
 /*clearfixing the main section*/
@@ -196,7 +200,7 @@ p
 
 /*portfolio gallery- I wanted to make the text appear only on mouse-over, so I'm creating a hidden div for it, under the class example. had to seperate it to 5 diff classes to make sure they work individually*/
 
-/*want the portfolio section to be different*/
+/*want the portfolio images to have extra margin in the section*/
 
 .imageBox
 {
@@ -408,4 +412,119 @@ h4
 {
     padding: 10px;
     float: left;
+}
+
+/*Contact page starts here*/
+/*form element*/
+
+.form
+{
+    max-width: 605px;
+    color: #bcbcbc;
+    position: relative;
+    right: 142.5px;
+    margin: 60px auto 170px ; 
+    
+}
+
+.form:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*this next part was copied and modified, not written from scratch by me*/
+/* Style inputs, select elements and textareas */
+input[type=text], textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    
+}
+
+textarea
+{
+    margin: 0px 0px 10px;
+}
+  
+input::placeholder
+{
+    color: #bcbcbc;
+    font-size: 18px;
+
+}
+
+textarea::placeholder
+{
+    color: #bcbcbc;
+    font-size: 18px;
+
+}
+  /* Style the label to display next to the inputs */
+label 
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+  /* Style the submit button */
+input[type=submit] 
+{
+    background-color: #a72917;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/*social box*/
+
+.social
+{
+    width: 190px;
+    margin: 0px auto 170px 35px;
+    position: absolute;
+    top: 0;
+    left: 675px;
+    padding: 35px 10px;
+}
+
+.socialPhoto
+{
+    height: 60px;
+}
+
+h3
+{
+    font-size: 28px;
+    color: #a72917;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-style: none none solid none;
+    padding: 20px 0px 30px;
+    margin: 0px 0px 30px 0px;
+    border-bottom-color: #e1e1e1;
+    border-bottom-width: 3px; 
+}
+
+/*It's footertime!!!!*/
+
+footer
+{
+    background: #7f7f7f;
+    padding: 50px;
+}
+
+.footer
+{
+    font-size: 10px;
+    margin: auto;
+    padding: auto;
 }
